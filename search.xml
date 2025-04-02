@@ -75,62 +75,6 @@
       </tags>
   </entry>
   <entry>
-    <title>这是用来凑数的</title>
-    <url>/2025/02/21/%E6%B8%B8%E8%AE%B0/1%20copy/</url>
-    <content><![CDATA[
-  <div class="note-large default">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <i class="notel-icon fa-solid fa-info"></i><p>信息</p>
-
-    </div>
-    <div class="notel-content">
-      <p>换行测试<br>换行测试<br>换行测试</p>
-
-    </div>
-  </div>
-
-  <div class="note-large blue">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>提示</p>
-
-    </div>
-    <div class="notel-content">
-      <p>换行测试<br>换行测试<br>换行测试</p>
-
-    </div>
-  </div>
-
-  <div class="note-large red">
-    <div class="notel-title rounded-t-lg p-3 font-bold text-lg flex flex-row gap-2 items-center">
-      <p>标题</p>
-
-    </div>
-    <div class="notel-content">
-      <p>换行测试<br>换行测试<br>换行测试</p>
-
-    </div>
-  </div>
-<div class="tabs" id="tab-first-unique-name"><ul class="nav-tabs"><li class="tab active"><a class="#first-unique-name-1">First Tab</a></li><li class="tab"><a class="#first-unique-name-2">Second Tab</a></li><li class="tab"><a class="#first-unique-name-3">Third Tab</a></li></ul><div class="tab-content"><div class="tab-pane active" id="first-unique-name-1"><p><strong>This is Tab 1.</strong></p></div><div class="tab-pane" id="first-unique-name-2"><p><strong>This is Tab 2.</strong></p>
-<p>This is Tab 2.</p></div><div class="tab-pane" id="first-unique-name-3"><p><strong>This is Tab 3.</strong></p>
-<p>This is Tab 3.</p>
-<p>This is Tab 3.</p></div></div></div>
-<details class="blue" data-header-exclude><summary><i class="fa-solid fa-chevron-right"></i>Folding 测试： 点击查看更多 </summary>
-              <div class='content'>
-              <p>啊啊啊啊啊</p>  <div class="note p-4 mb-4 rounded-small danger">    <p>danger 提示块标签</p>  </div>  <div class="note p-4 mb-4 rounded-small tip">    <p>tip 提示块标签</p>  </div>
-              </div>
-            </details>
-<p>不设置任何参数的 <a class="button " href='/' title='按钮'>按钮</a> 适合融入段落中。</p>
-<p>regular 按钮适合独立于段落之外：</p>
-<a class="button  regular" href='https://www.ohevan.com' title='示例博客'><i class='fa-solid fa-play-circle'></i> 示例博客</a>
-<a class="button  regular" href='https://www.ohevan.com' title='示例博客'><i class='fa-solid fa-play-circle'></i> 示例博客</a>
-<p>large 按钮更具有强调作用，建议搭配 center 使用：</p>
-<a class="button  center large" href='https://redefine-docs.ohevan.com' title='开始使用'><i class='fa-solid fa-download'></i> 开始使用</a>]]></content>
-      <categories>
-        <category>我是</category>
-        <category>凑数的</category>
-      </categories>
-  </entry>
-  <entry>
     <title>第02章 数据分析利器：NumPy、pandas与 Matplotlib库</title>
     <url>/2025/02/18/%E7%AC%94%E8%AE%B0/Python%E5%A4%A7%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90%E4%B8%8E%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E5%95%86%E4%B8%9A%E6%A1%88%E4%BE%8B%E5%AE%9E%E6%88%98/02/</url>
     <content><![CDATA[<iframe src="/htmls/Python大数据分析与机器学习商业案例实战/02 数据分析利器：NumPy、pandas与 Matplotlib库.html" width="100%" height="800px"></iframe>
@@ -2052,6 +1996,147 @@ cov(r_p, r_B) &= cov[wr_A + (1-w)r_B, rB]\\
       <tags>
         <tag>学习笔记</tag>
         <tag>金融经济学</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Part 1 关于服务器的一些知识</title>
+    <url>/2025/04/02/%E4%B8%80%E4%B8%AA%E4%BB%8E%E9%9B%B6%E5%BC%80%E5%A7%8B%E7%9A%84%E6%9C%8D%E5%8A%A1%E5%99%A8/Part%201/</url>
+    <content><![CDATA[<h1 id="Part-1-关于服务器的一些知识"><a href="#Part-1-关于服务器的一些知识" class="headerlink" title="Part 1 关于服务器的一些知识"></a>Part 1 关于服务器的一些知识</h1><p>先放把我的服务器的外观图放在这里：</p>
+<p><img lazyload="" src="/images/loading.svg" data-src="/images/一个从零开始的服务器/服务器.png" alt="服务器"></p>
+<h2 id="服务器是个什么东西"><a href="#服务器是个什么东西" class="headerlink" title="服务器是个什么东西"></a>服务器是个什么东西</h2><p>在一切开始之前，知道服务器是个什么东西是最重要的。</p>
+<p>从一个表格来了解一下服务器和普通电脑的区别：</p>
+<!-- <table style="border-collapse: collapse; border: 1px solid black;"> -->
+<table style="border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th></th>
+      <th>服务器</th>
+      <th>普通电脑</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>运行时间</td>
+      <td>通常24小时不间断运行</td>
+      <td>根据使用需求开关机</td>
+    </tr>
+    <tr>
+      <td>硬件可靠性</td>
+      <td>采用企业级硬件，稳定性高</td>
+      <td>消费级硬件，可靠性相对较低</td>
+    </tr>
+    <tr>
+      <td>性能需求</td>
+      <td>多任务处理能力和并发性能</td>
+      <td>单任务处理速度</td>
+    </tr>
+    <tr>
+      <td>操作系统</td>
+      <td>多采用Linux等服务器专用系统</td>
+      <td>通常使用Windows或macOS等桌面系统</td>
+    </tr>
+    <tr>
+      <td>用途</td>
+      <td>提供网络服务、数据存储、计算等</td>
+      <td>日常办公、娱乐、个人使用</td>
+    </tr>
+    <tr>
+      <td>管理方式</td>
+      <td>多采用远程管理，命令行操作</td>
+      <td>本地操作，图形界面为主</td>
+    </tr>
+    <tr>
+      <td>散热需求</td>
+      <td>专业散热系统，注重温度控制</td>
+      <td>普通散热系统</td>
+    </tr>
+    <tr>
+      <td>功耗</td>
+      <td>持续大功率运行，要求电源稳定</td>
+      <td>功耗相对较低，一般家用电源即可</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>简单来说，如果你的电脑能够持续不间断运行，那么给它装一个服务器常用的系统，那么它就可以作一个服务器。</p>
+<p>那有同学可能就要问了，“啊，博主博主，那你就让电脑开着，装个服务器系统不就行了，为什么要弄一个服务器呢”，这是因为，作为办公、游戏时使用的电脑，除了<strong>在不使用时保持开启会产生大量无谓的功耗</strong>(比如显示器)外，其并<strong>不是为了提供一些专门的服务而选择硬件</strong>的，比如云存储，这个需要大量储存空间，我们常用的办公电脑的储存空间通常1TB就已经完全够用了，但是对于提供存储备份等服务来说就显得有点小马拉大车了，又比如我们常用的电脑可能为了游戏而安装了一个比较好的显卡，比如RTX 5090 D(打败了全国99.99%的用户)，而服务器提供云存储服务甚至不需要显卡，如果需要也只是装系统需要用一下，你甚至可以从别的电脑先拆下来一个临时使用，装完系统、能够实现远程连接（使用办公电脑来控制）后就可以拆下来了。</p>
+<p>总的来说，服务器、办公电脑、笔记本等设备是针对不同使用场景设计的电子设备，其核心差异体现在计算能力、存储架构、便携性和稳定性上，甚至这些电子设备本身也有其分支，比如服务器有通用型服务器和专用型服务器（比如NAS，常见的有绿联的产品），比如笔记本有轻薄本、游戏本等。</p>
+<h2 id="关于我的硬件的选择"><a href="#关于我的硬件的选择" class="headerlink" title="关于我的硬件的选择"></a>关于我的硬件的选择</h2><p>回到主线，现在开始组建一个服务器，就像DIY一个电脑一样：要根据我们的需要来选择合适的配件，比如如果有打3A大作的需求，那么可能需要一个比较好的显卡。我组建这个服务器时面临的需求是：运行一个网站、搭建一个同步云盘、可能会用来建游戏的私服（比如Minecraft）。根据这些需求，我选择了以下这些硬件：</p>
+<table style="border-collapse: collapse;">
+  <thead>
+    <tr>
+      <th>硬件</th>
+      <th>型号</th>
+      <th>价格</th>
+      <th>备注</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>CPU散热器</td>
+      <td>冰曼MX96-V3[6热管]</td>
+      <td>67.8</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>内存</td>
+      <td>Gloway天策16G 3200 白色</td>
+      <td>145</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>机箱+电源</td>
+      <td>金河田预见N1 + 金河田300W</td>
+      <td>195</td>
+      <td>你甚至可以只买一个电源（电源的功率要大于所有硬件满载功率总和，这个可以到一些网站上看，比如中关村在线），找个纸盒来放这些硬件（如果有一个3D打印机的话你可以DIY一个机箱）</td>
+    </tr>
+    <tr>
+      <td>固态</td>
+      <td>三星PM9C1 512GB</td>
+      <td>195</td>
+      <td>这个是用来装系统的，因为固态的传输速度较快，系统装在固态盘里就不会因为传输速度受限而导致运行慢的问题。不过其实不需要很大，128G就完全够用了，但是因为目前128G的固态比较少（基本找不到比较好的），所以选了这个</td>
+    </tr>
+    <tr>
+      <td>显卡</td>
+      <td>RX550 4G</td>
+      <td>240</td>
+      <td>这个可以不要，就像之前说的。我退这个是因为买的这个有点问题（一烤显卡就关机），不过还是勉强装完系统，它的使命也算完成了。如果是CPU带核显的话也可以不要</td>
+    </tr>
+    <tr>
+      <td>主板</td>
+      <td>ONDA B450SD4-ITX-W(支持1-5代U)</td>
+      <td>389</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>CPU</td>
+      <td>AMD R5 5500（散片）</td>
+      <td>399</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>硬盘</td>
+      <td>希捷酷狼4T Sata 3.5寸</td>
+      <td>649</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>合计</td>
+      <td></td>
+      <td>2279.8(-240)</td>
+      <td>减240是因为把显卡退了</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>接下来就是装机的过程，这个过程的教程也很多，内容也很简单，就是像积木一样把你所有的硬件拼在一起（对于新手来说可能没有说起来那么简单），不过看几个教程就应该学会了，这里推荐<a class="link" href="https://www.bilibili.com/video/BV1BG4y137mG/">硬件茶谈的装机教程<i class="fa-solid fa-arrow-up-right ml-[0.2em] font-light align-text-top text-[0.7em] link-icon"></i></a>。</p>
+<p>之后的部分主要会分享一些遇到的问题和解决方案，在这个过程中我也学到了很多东西，很多时候我们在课堂中学、听别人说一千道一万，远不如上手去做，这是我关于在知识、内容碎片化的当下如何去真正学一些东西的解决方案，遇到不会的立马就去学、干中学，在实践中学习、积累，而这个系列我也会随着我的实践同步更新，以便分享我在这个过程中学到的东西。</p>
+<!-- 这一点我最大的感触就是机器学习的学习历程，在这个网站里可以看到关于机器学习的一些笔记分享，了解的同学会知道国内关于机器学习最著名的教材就是周志华的“西瓜书”，这本书之前我也看过，但是学得是真的头昏脑胀，很大程度上是因为这本书大篇幅都在理论层面， -->]]></content>
+      <categories>
+        <category>一个从零开始的服务器</category>
+      </categories>
+      <tags>
+        <tag>数码</tag>
       </tags>
   </entry>
 </search>
